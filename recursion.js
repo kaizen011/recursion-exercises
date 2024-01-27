@@ -54,3 +54,21 @@ function all(array, callback){
 	}
 }
 
+// 5th
+
+var six = productOfArray([1,2,3]) // 6
+var sixty = productOfArray([1,2,3,10]) // 60
+
+
+function productOfArray(array){
+    let copy = copy || array.slice();
+    let length = copy.length;
+    let result;
+    if(length != 0){
+        
+    } 
+    else
+    {
+
+    }
+}

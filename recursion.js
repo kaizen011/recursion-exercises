@@ -82,3 +82,18 @@ function contains(object, searchValue) {
     }
     return false;
   }
+
+
+// Fibonacci Sequence
+
+// Iterative Approach
+function fibs(n){
+    let array = [0,1];
+
+    for(let i = 2; i <= n; i++){
+        let result = array[i-1] + array[i-2];
+        array.push(result);    
+    }
+    return array;
+}
+

@@ -66,3 +66,19 @@ function productOfArray(array){
         return array.shift() * productOfArray(array);
     }
 }
+
+
+//6th
+
+function contains(object, searchValue) {
+    if (typeof object !== "object" || object === null) {
+      return object === searchValue;
+    }
+  
+    for (const value of Object.values(object)) {
+      if (contains(value, searchValue)) {
+        return true;
+      }
+    }
+    return false;
+  }

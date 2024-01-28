@@ -98,7 +98,7 @@ function fibs(n){
 }
 
 // Recursive Approach
-function fibs{
+function fibs(n){
 let fibArray = [];
 
     function generateFibs(index){
@@ -112,8 +112,6 @@ let fibArray = [];
                 generateFibs(index-1);
                 fibArray.push(fibArray[index - 1] + fibArray[index -2]);
             }
-            
-
        }
 
 generateFibs(n);

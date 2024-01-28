@@ -61,14 +61,8 @@ var sixty = productOfArray([1,2,3,10]) // 60
 
 
 function productOfArray(array){
-    let copy = copy || array.slice();
-    let length = copy.length;
-    let result;
-    if(length != 0){
-        
-    } 
-    else
-    {
-
+    if(array.length === 0) return 1;
+    else{
+        return array.shift() * productOfArray(array);
     }
 }

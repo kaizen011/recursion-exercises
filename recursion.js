@@ -97,3 +97,26 @@ function fibs(n){
     return array;
 }
 
+// Recursive Approach
+function fibs{
+let fibArray = [];
+
+    function generateFibs(index){
+         if (index == 0){
+            fibArray.push(0);
+            }
+            else if(index == 1){
+                fibArray.push(0,1);
+            }
+            else{
+                generateFibs(index-1);
+                fibArray.push(fibArray[index - 1] + fibArray[index -2]);
+            }
+            
+
+       }
+
+generateFibs(n);
+return fibArray;
+
+}

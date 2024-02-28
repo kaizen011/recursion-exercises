@@ -68,7 +68,7 @@ function productOfArray(array){
 }
 
 
-//6th
+// 6th
 
 function contains(object, searchValue) {
     if (typeof object !== "object" || object === null) {
